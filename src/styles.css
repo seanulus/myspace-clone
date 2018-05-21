@@ -51,12 +51,12 @@ a:hover {
 
 .left-column {
   width: 32%;
-  border: 2px black solid;
+  /* border: 2px black solid; */
 }
 
 .right-column {
   width: 67%;
-  border: 2px black solid;
+  margin-left: 35px;
 }
 
 .profile-pic p {
@@ -81,10 +81,47 @@ a:hover {
   margin-bottom: 25px;
 }
 
+.status {
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+
+.blogs p {
+  margin-top: 15px;
+}
+
+.blogs a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blogs a:hover {
+  text-decoration: underline;
+}
+
+.orange {
+  background-color: rgb(255, 204, 153);
+  color: #FF6600;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+
+.blurbs p {
+  margin-bottom: 15px;
+}
+
+.blurbs h4 {
+  color: #FF6600;
+}
+
 
 /* flex stuff */
 .container {
   display: flex;
+  width: 800px;
 }
 
 .flex-header {
@@ -118,29 +155,62 @@ a:hover {
 }
 
 .interests {
-  /* height: 1316px; */
   display: flex;
   flex-wrap: wrap;
+  border: 1px solid #6da1ce;
 }
 
 .interests-left {
   display: flex;
   flex-direction: column;
   width: 30%;
-  justify-content: space-between;
-  align-content: stretch;
+  /* justify-content: space-around; */
+  /* align-content: stretch; */
 }
 
-.interests-title {
-  border: 1px solid black;
+.interests-general {
+  border: 1px solid white;
+  height: 130px;
+  background-color: rgb(177, 208, 240);
+  color: #286091;
+}
+
+.interests-music {
+  border: 1px solid white;
+  height: 788px;
+  background-color: rgb(177, 208, 240);
+  color: #286091;
+}
+
+.interests-movies{
+  border: 1px solid white;
+  height: 312px;
+  background-color: rgb(177, 208, 240);
+  color: #286091;
+}
+
+.interests-television{
+  border: 1px solid white;
+  height: 46px;
+  background-color: rgb(177, 208, 240);
+  color: #286091;
+}
+
+.interests-books{
+  border: 1px solid white;
+  height: 46px;
+  background-color: rgb(177, 208, 240);
+  color: #286091;
 }
 
 .content {
-  border: 1px solid black;
+  border: 1px solid white;
+  background-color: rgb(213, 232, 251);
+  padding: 2px;
 }
 
 .interests-right {
   display: flex;
   flex-direction: column;
-  width: 65%
+  width: 69%
 }
